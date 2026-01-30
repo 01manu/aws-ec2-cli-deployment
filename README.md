@@ -1,12 +1,12 @@
-\# AWS EC2 Deployment Using AWS CLI
+# AWS EC2 Deployment Using AWS CLI
 
 
 
-\## Project Overview
+## Project Overview
 
 This project demonstrates how to provision and secure an Amazon EC2 instance
 
-in the \*\*eu-north-1 (Stockholm)\*\* region using the \*\*AWS Command Line Interface (CLI)\*\*.
+in the **eu-north-1 (Stockholm)** region using the **AWS Command Line Interface (CLI)**.
 
 
 
@@ -20,35 +20,17 @@ the AWS Management Console.
 
 
 
-\## AWS Services Used
+## AWS Services Used
 
-\- Amazon EC2
+- Amazon EC2
 
-\- VPC \& Subnets
+- VPC & Subnets
 
-\- Security Groups
+- Security Groups
 
-\- Key Pairs
+- Key Pairs
 
-\- AWS Systems Manager (AMI discovery)
-
-
-
----
-
-
-
-\## What This Project Demonstrates
-
-\- EC2 provisioning using AWS CLI
-
-\- Secure SSH access using CIDR rules
-
-\- Region-specific instance type selection
-
-\- Dynamic Amazon Linux 2023 AMI retrieval
-
-\- Basic AWS networking concepts
+- AWS Systems Manager (AMI discovery)
 
 
 
@@ -56,23 +38,17 @@ the AWS Management Console.
 
 
 
-\## Region
+## What This Project Demonstrates
 
-\- \*\*eu-north-1 (Stockholm)\*\*
+- EC2 provisioning using AWS CLI
 
+- Secure SSH access using CIDR rules
 
+- Region-specific instance type selection
 
----
+- Dynamic Amazon Linux 2023 AMI retrieval
 
-
-
-\## Security Notes
-
-\- No AWS credentials are stored in this repository
-
-\- `.pem` files are not committed
-
-\- SSH access is restricted using `/32` CIDR notation
+- Basic AWS networking concepts
 
 
 
@@ -80,9 +56,33 @@ the AWS Management Console.
 
 
 
-\## Author
+## Region
 
-\*\*Manoj\*\*
+- **eu-north-1 (Stockholm)**
+
+
+
+---
+
+
+
+## Security Notes
+
+- No AWS credentials are stored in this repository
+
+- `.pem` files are not committed
+
+- SSH access is restricted using `32` CIDR notation
+
+
+
+---
+
+
+
+## Author
+
+**Manoj**
 
 
 
