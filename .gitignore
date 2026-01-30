@@ -1,0 +1,8 @@
+# AWS sensitive files
+*.pem
+.aws/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
